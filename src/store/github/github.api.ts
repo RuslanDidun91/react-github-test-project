@@ -23,6 +23,7 @@ export const githubApi = createApi({
         url: `users/${username}/repos`
       })
     }),
+    //boilerplate
     createUser: build.mutation<any, void>({
       query: () => ``
     })
